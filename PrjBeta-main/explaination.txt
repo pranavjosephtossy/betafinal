@@ -1,0 +1,46 @@
+for alpha 
+player moves(no animation), 
+a fireball is instantiated and moves in a straight line(no texture on ball),
+very basic box collider for fireball, player and ghost,
+jump motion(no animation, no limit so can spam space key to fly)
+very minimal UI(debug log, it also doesn't work),
+basic environment(texture for ground and a back drop),
+objective(destroy ghost)
+work split
+Pranav
+	asset import
+	environment
+	player movement
+Jithin
+	fireball spawn manager
+	ghost spawn manager
+	box collider
+
+
+plans for beta 
+player movement(animation, including jump),
+fireball( arcade like movement and textures),
+box collider(make it more fun for the user to play)
+smart UI,
+prop work and expanded/fitting environment/play area
+objective(destroy ghost, difficulty increases, powerup to summon skeletons to help)
+
+post alpha/ beta
+work split
+Pranav
+	-player movement=animation, including jump, no double jump
+	-fireball=texture(material) and particle affects
+	-box collider=made it more fun for the user to play by reducing users box collider and increasing the 			enemies(harder to hit player and easier for fire ball to collide with enemies)
+	-prop work and expanded/fitting environment/play area
+
+Jithin
+	-UI
+	-clearer objective=destroy ghost, difficulty increases, powerup to freeze enemies)
+	-powerup(changed the older power up to a new one )
+	-prop work and expanded/fitting environment/play area
+	-spawn manager(when exactly to increase dificulty and speed)
+
+During the development we found out that we couldn't download the zip folder so the other person could work on it. We spent a whole day trying to figure out  until we found out that this issue of(virus detected only seemed to be on folders(unity prj) with a particular asset. Since the said asset was one we were supposed to use for our powerups we pivoted away from it to a new power up. Also to note, initially Pranav was supposed to do the power up however he couldn't figure how to get it to work. The skeleton prefabs wouldnt spawn and only appear if you plopped them onto the game scene. Then they would line up at a spawn point and just stay there. They were supposed to move towards the ghost and destroy on collision. 
+We had to abandon this power up and Jithin came up with another one where after reaching a certain score(10 points). This power up lasts for 5 seconds before it changes back.
+A lot of concessions were made to make the games more fun to the player rather than make it strict or hard. Difficulty increses with score and the said difficulty increase is by increaseing enemies spawned in anf their movement speed.
+		
