@@ -1,0 +1,5 @@
+Game Play Functionality
+	-collisions on all enemy prefabs, player character and fireball
+	-animations for movement, attack animation is lengthy so u need to 		pause/ wait a secpnd for it to play through to see it 			complete, spamming attack shows the animation on the final 		attack
+	-particle system on fireball
+	-conditional game events, jumping(y cant be more than xf to stop 		double jumping), powerup only summoned every 10th point, 		enemy difficulty increases based on score

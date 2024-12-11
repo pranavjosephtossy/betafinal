@@ -1,2 +1,5 @@
 unity play/webgl
+alpha
 https://github.com/pranavjosephtossy/finalalphabuild.git
+beta
+https://play.unity.com/en/games/e7312966-3fe6-4c75-aa4f-1952fe224e0d/final-beta
